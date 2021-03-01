@@ -1,0 +1,22 @@
+{
+  "name": "temp-checks-hm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happy-mammal/temp-checks-hm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/happy-mammal/temp-checks-hm/issues"
+  },
+  "homepage": "https://github.com/happy-mammal/temp-checks-hm#readme",
+  "dependencies": {
+    "node-cron": "^2.0.3"
+  }
+}
