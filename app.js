@@ -1,6 +1,6 @@
 var cron = require('node-cron');
  
-cron.schedule('*/10 * * * * *', () => {
+cron.schedule('0 0 */2 * * *', () => {
   var d = new Date();
 
   console.log(d.getUTCHours()+":"+d.getUTCMinutes()+":"+d.getUTCSeconds());
