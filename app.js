@@ -3,7 +3,7 @@ var dotenv = require('dotenv');
 dotenv.config();
 
 
-cron.schedule('*/10 0 0 * * *', () => {
+cron.schedule('*/10 * * * * *', () => {
   var d = new Date();
   console.log(d.getUTCHours()+":"+d.getUTCMinutes()+":"+d.getUTCSeconds());
   console.log(process.env.TESTVAR);
